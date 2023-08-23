@@ -1,0 +1,18 @@
+{
+  "presidents": [
+    {
+      "id": 1,
+      "name": "Joe Biden",
+      "birthday": "20/11/1942",
+      "image": "https://thumbs.dreamstime.com/z/october-vice-president-joe-biden-campaigns-nevada-democratic-u-s-senate-candidate-catherine-cortez-masto-presid-85015883.jpg?w=768",
+      "number": 46
+    },
+    {
+      "name": "Donald Trump",
+      "birthday": "06/14/1946",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/220px-Donald_Trump_official_portrait.jpg",
+      "number": "45",
+      "id": 2
+    }
+  ]
+}
