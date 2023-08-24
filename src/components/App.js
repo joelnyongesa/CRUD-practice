@@ -13,13 +13,37 @@ function App() {
     .catch(e=>console.log(e))
   }, [])
 
-  // console.log(presidents)
+  /*
+  Add - spread operator.
+  Remove - filter.
+  Update - map
+  */
+  function handleUpdatePresident(id, updatedPresidentObj){
+    // New presidents object
+    const updatedPresident = presidents.map((president)=>{
+      if(president.id ===id){
+        return{
+          
+        }
+      }
+    })
+    // Loop and map
+    // set to new president object
+  }
+
+  // Arrays, objects are immutable
+  function handleAddPresident(newPresident){
+    setPresidents([
+      ...presidents,
+      newPresident
+    ])
+  }
 
 
   return (
     <div className="App">
       <Presidents presidents={presidents}/>
-      <PresidentForm/>
+      <PresidentForm onAddPresident={handleAddPresident}/>
     </div>
   );
 }

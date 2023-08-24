@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Joe Biden",
       "birthday": "20/11/1942",
-      "image": "https://thumbs.dreamstime.com/z/october-vice-president-joe-biden-campaigns-nevada-democratic-u-s-senate-candidate-catherine-cortez-masto-presid-85015883.jpg?w=768",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Joe_Biden_presidential_portrait.jpg/220px-Joe_Biden_presidential_portrait.jpg",
       "number": 46
     },
     {
@@ -13,6 +13,20 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/220px-Donald_Trump_official_portrait.jpg",
       "number": "45",
       "id": 2
+    },
+    {
+      "name": "Barrack Obama",
+      "birthday": "04/08/1961",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/220px-President_Barack_Obama.jpg",
+      "number": "44",
+      "id": 3
+    },
+    {
+      "name": "Barrack Osama",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/220px-President_Barack_Obama.jpg",
+      "birthday": "04/08/1961",
+      "number": "44",
+      "id": 4
     }
   ]
 }

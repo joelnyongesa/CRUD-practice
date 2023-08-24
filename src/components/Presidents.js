@@ -1,3 +1,6 @@
+import UpdateDetails from "./UpdateDetails";
+
+
 function Presidents({presidents}){
     const presidentDetails = presidents.map((president)=>{
         return(
@@ -6,6 +9,7 @@ function Presidents({presidents}){
                 <h3>{president.name}</h3>
                 <p>Born on: {president.birthday}</p>
                 <p>{president.number}th President of the United States</p>
+                <UpdateDetails president={president}/>
             </div>
         )
     })

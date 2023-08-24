@@ -30,6 +30,7 @@ function PresidentForm(){
             image: image,
             number: number,
         };
+        e.target.reset();
 
         fetch('http://localhost:8081/presidents', {
             method: "POST",
@@ -38,6 +39,9 @@ function PresidentForm(){
             },
             body: JSON.stringify(newPresident)
         })
+        .then(r=>r.json())
+        .then(data => console.log(data))
+        .catch(e=>console.log(e))
         
         
     }
